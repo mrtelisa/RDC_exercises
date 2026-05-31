@@ -14,4 +14,11 @@ In **es3_1R** there is a robot with only 1 link standing still thanks to an algo
 
 ## Second exercise session
 ### es4
-In **ex4_OL** there is implemented the Newton Euler recursive method to control the 2R robot movement, while in the file **ex4_CL** the system indtroduces a PD controller on position and velocity.
+In **ex4_OL** there is implemented the Newton Euler recursive method to control the 2R robot movement, while in the file **ex4_CL** the system introduces a PD controller on position and velocity.
+
+## Third exercise session
+### es5
+In **es5_PD_GC** the movement of the 2R robot is computed using a PD controller + a block for compensating the gravity. In **es5_CT** is implemented the same exercise, but is used the Computed Torque method, that includes using 3 specific blocks for calculating A, B and C matrices.
+
+### es6
+This exercise required to implement the Computed Torque method using Newton - Euler algorithm. Turned out this is equal to the case of Newton - Euler with closed loop.
